@@ -1,7 +1,7 @@
 import * as yargs from 'yargs'
 
 const args = yargs
-  .commandDir('cmddefs')
+  .commandDir('commands')
   .demandCommand()
   .alias('help', 'h')
   .alias('version', 'V')
