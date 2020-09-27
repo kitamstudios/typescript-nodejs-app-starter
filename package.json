@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
+    "@types/yargs": "^15.0.7",
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
     "eslint": "^6.8.0",
@@ -37,5 +38,8 @@
   },
   "lint-staged": {
     "*.{ts,js}": "eslint --cache"
+  },
+  "dependencies": {
+    "yargs": "^16.0.3"
   }
 }
