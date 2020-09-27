@@ -10,7 +10,11 @@ A starter for typescript Node.js projects with build, linting and formatting set
 
 ### Run
 
-```yarn run start -- -help```
+```yarn run start -- sayHello```
+
+### Watch
+
+```yarn run start:dev```
 
 ### Lint
 

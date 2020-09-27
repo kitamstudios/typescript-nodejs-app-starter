@@ -1,6 +1,6 @@
 export const command = 'sayHello [message]'
 
-export const desc = 'Create an empty repo'
+export const desc = 'Say hello to ...'
 
 export const builder = {
   message: { default: 'world' },

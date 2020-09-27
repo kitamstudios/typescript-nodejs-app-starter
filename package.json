@@ -10,7 +10,8 @@
     "build": "rimraf ./build && tsc",
     "start:dev": "nodemon",
     "start": "yarn run build && node build/index.js",
-    "lint": "lint-staged"
+    "lint": "eslint **/*.ts",
+    "lint:staged": "lint-staged"
   },
   "dependencies": {
     "yargs": "^16.0.3"
@@ -35,7 +36,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn lint:staged"
     }
   },
   "lint-staged": {
