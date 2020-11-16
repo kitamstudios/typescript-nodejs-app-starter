@@ -23,9 +23,10 @@ A starter for typescript Node.js projects with build, linting and formatting set
 ## Backlog
 
 - [x] Node.js startup
+- [x] F5 debugging from VSCode
 - [x] ESlint + Prettier + EditorConfig integration
 - [x] Husky integration
-- [ ] Testing
+- [x] Unit testing
 
 ## Inspired by
 
